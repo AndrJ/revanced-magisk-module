@@ -8,7 +8,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-apkmirror-arch = "arm-v7a"
+#apkmirror-arch = "arm-v7a"
 excluded-patches = "'Enable tablet layout' 'Tablet mini player' 'Return YouTube Dislike' 'Vanced MicroG support' 'Announcements' 'Enable debugging' 'HDR auto brightness' 'Swipe controls'"
 included-patches = ""
 version = "auto"
