@@ -8,7 +8,8 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
+apkmirror-arch = "arm-v7a"
+excluded-patches = "'Enable tablet layout' 'Tablet mini player' 'Return YouTube Dislike' 'Vanced MicroG support' 'Announcements' 'Enable debugging' 'HDR auto brightness' 'Swipe controls'"
 included-patches = ""
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -17,6 +18,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-arch = "both"
+apkmirror-arch = "arm-v7a"
+excluded-patches = "'Vanced MicroG support'"
 
 [Music-Extended]
 app-name = "Music"
