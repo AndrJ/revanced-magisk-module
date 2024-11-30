@@ -534,11 +534,13 @@ build_rv() {
 		pr "Building '${table}' in '$build_mode' mode"
 		if [ -n "$microg_patch" ]; then
 			patched_apk="${TEMP_DIR}/${app_name_l}-${rv_brand_f}-${version_f}-${arch_f}-${build_mode}.apk"
-			if [ "$build_mode" = apk ]; then
-				patcher_args+=("-e \"${microg_patch}\"")
-			elif [ "$build_mode" = module ]; then
-				patcher_args+=("-d \"${microg_patch}\"")
-			fi
+#			if [ "$build_mode" = apk ]; then
+#				patcher_args+=("-e \"${microg_patch}\"")
+#			elif [ "$build_mode" = module ]; then
+#				patcher_args+=("-d \"${microg_patch}\"")
+#			fi
+			# !kyousei suru!
+   			patcher_args+=("-d \"${microg_patch}\"")
 		else
 			patched_apk="${TEMP_DIR}/${app_name_l}-${rv_brand_f}-${version_f}-${arch_f}.apk"
 		fi
