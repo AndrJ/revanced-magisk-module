@@ -540,7 +540,7 @@ build_rv() {
 #				patcher_args+=("-d \"${microg_patch}\"")
 #			fi
 			# !kyousei suru!
-   			patcher_args+=("-d \"${microg_patch}\"")
+			patcher_args+=("-d \"${microg_patch}\"")
 		else
 			patched_apk="${TEMP_DIR}/${app_name_l}-${rv_brand_f}-${version_f}-${arch_f}.apk"
 		fi
