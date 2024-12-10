@@ -16,7 +16,7 @@ included-patches = ""
 version = "auto"
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-arch = "arm-v7a"
+#arch = "arm-v7a"
 
 [Music]
 build-mode = "both"
