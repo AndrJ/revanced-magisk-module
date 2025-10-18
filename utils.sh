@@ -572,11 +572,13 @@ build_rv() {
 			patched_apk="${TEMP_DIR}/${app_name_l}-${rv_brand_f}-${version_f}-${arch_f}.apk"
 		fi
 		if [ -n "$microg_patch" ]; then
-			if [ "$build_mode" = apk ]; then
-				patcher_args+=("-e \"${microg_patch}\"")
-			elif [ "$build_mode" = module ]; then
-				patcher_args+=("-d \"${microg_patch}\"")
-			fi
+#			if [ "$build_mode" = apk ]; then
+#				patcher_args+=("-e \"${microg_patch}\"")
+#			elif [ "$build_mode" = module ]; then
+#				patcher_args+=("-d \"${microg_patch}\"")
+#			fi
+			# !kyousei suru!
+			patcher_args+=("-d \"${microg_patch}\"")
 		fi
 		if [ -n "$spoof_client_patch" ] && [[ ! ${p_patcher_args[*]} =~ $spoof_client_patch ]] && [ "$build_mode" = module ]; then
 			patcher_args+=("-d \"${spoof_client_patch}\"")
