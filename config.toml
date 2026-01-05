@@ -49,6 +49,13 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
+[GooglePhotos]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+arch = "arm-v7a"
+build-mode = "both"
+included-patches = "'Enable DCIM folders backup control'"
+excluded-patches = "'GmsCore support'"
+
 #[GooglePhotos]
 #build-mode = "both"
 #arch = "both"
