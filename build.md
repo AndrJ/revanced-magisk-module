@@ -1,7 +1,3 @@
-GooglePhotos: 7.57.0.843750501  
-Music: 8.10.52  
-Music-Extended (arm64-v8a): 8.30.54  
-Music-Extended (arm-v7a): 8.30.54  
 YouTube: 20.14.43  
 YouTube-Extended: 20.05.46  
 
