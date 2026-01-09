@@ -9,14 +9,14 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-apkmirror-arch = "arm-v7a"
 #excluded-patches = "'Enable tablet layout' 'Tablet mini player' 'Return YouTube Dislike' 'Vanced MicroG support' 'Announcements' 'Enable debugging' 'HDR auto brightness' 'Swipe controls'"
 excluded-patches = "'Enable tablet layout' 'Tablet mini player' 'Return YouTube Dislike' 'Announcements' 'Enable debugging' 'HDR auto brightness' 'Swipe controls'"
 included-patches = ""
 version = "auto"
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-arch = "arm-v7a"
+#apkmirror-arch = "arm-v7a"
+#arch = "arm-v7a"
 
 [Music]
 build-mode = "both"
@@ -26,8 +26,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 #apkmirror-arch = "both"
 #apkmirror-arch = "arm-v7a"
-arch = "arm-v7a"
 #excluded-patches = "'Vanced MicroG support'"
+#arch = "arm-v7a"
 
 # https://github.com/j-hc/revanced-magisk-module/issues/554
 [Music-Extended]
@@ -37,8 +37,8 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+#arch = "both"
 
 [YouTube-Extended]
 #enabled = false
@@ -51,10 +51,10 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [GooglePhotos]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-arch = "arm-v7a"
 build-mode = "both"
 included-patches = "'Enable DCIM folders backup control'"
 excluded-patches = "'GmsCore support'"
+#arch = "arm-v7a"
 
 #[GooglePhotos]
 #build-mode = "both"
