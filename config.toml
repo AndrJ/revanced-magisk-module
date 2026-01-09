@@ -17,6 +17,7 @@ version = "auto"
 #archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 #apkmirror-arch = "arm-v7a"
 #arch = "arm-v7a"
+arch = "both"
 
 [Music]
 build-mode = "both"
@@ -28,6 +29,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 #apkmirror-arch = "arm-v7a"
 #excluded-patches = "'Vanced MicroG support'"
 #arch = "arm-v7a"
+arch = "both"
 
 # https://github.com/j-hc/revanced-magisk-module/issues/554
 [Music-Extended]
@@ -38,7 +40,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-#arch = "both"
+arch = "both"
 
 [YouTube-Extended]
 #enabled = false
@@ -48,6 +50,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+arch = "both"
 
 [GooglePhotos]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
@@ -55,6 +58,7 @@ build-mode = "both"
 included-patches = "'Enable DCIM folders backup control'"
 excluded-patches = "'GmsCore support'"
 #arch = "arm-v7a"
+arch = "both"
 
 #[GooglePhotos]
 #build-mode = "both"
