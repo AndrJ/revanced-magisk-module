@@ -1,0 +1,21 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '20 14 * * *'  # 毎日0時
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Sync upstream
+        env:
+          REPO_FORK: https://github.com/j-hc/revanced-magisk-module.git
+        run: |
+          git remote add upstream ${REPO_FORK}
+          git fetch upstream
+          git checkout main
+          git merge upstream/main
+          git push origin main
