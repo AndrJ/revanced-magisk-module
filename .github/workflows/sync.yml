@@ -9,7 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-slim
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@main
         with:
           fetch-depth: 0
 
