@@ -8,6 +8,8 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-slim
+    permissions:
+      contents: write # gh repo sync
     steps:
 #      - uses: actions/checkout@main
 #        with:
