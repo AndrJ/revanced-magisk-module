@@ -18,7 +18,7 @@ version = "auto"
 #apkmirror-arch = "arm-v7a"
 #arch = "arm-v7a"
 arch = "both"
-patches-source = "MorpheApp/morphe-patches"
+patches-source = "https://gitlab.com/ReVanced/revanced-patches"
 
 [YouTube-Morphe]
 app-name = "YouTube"
@@ -41,7 +41,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 #apkmirror-arch = "both"
 #apkmirror-arch = "arm-v7a"
 #excluded-patches = "'Vanced MicroG support'"
-patches-source = "MorpheApp/morphe-patches"
+patches-source = "https://gitlab.com/ReVanced/revanced-patches"
 
 [Music-Morphe]
 app-name = "Music"
