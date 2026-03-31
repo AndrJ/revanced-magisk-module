@@ -1,5 +1,9 @@
+Music (arm64-v8a): 8.40.54  
+Music (arm-v7a): 8.40.54  
 Music-Morphe (arm64-v8a): 8.44.54  
 Music-Morphe (arm-v7a): 8.44.54  
+YouTube (arm64-v8a): 20.40.45  
+YouTube (arm-v7a): 20.40.45  
 YouTube-Morphe (arm64-v8a): 20.45.36  
 YouTube-Morphe (arm-v7a): 20.45.36  
 
@@ -8,6 +12,9 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
+Patches: AndrJ/patches-6.1.0.rvp  
+[Changelog](https://github.com/AndrJ/revanced-patches/releases/tag/v6.1.0)
+
 CLI: inotia00/revanced-cli-5.0.2-all.jar  
 Patches: inotia00/patches-5.14.1.rvp  
 [Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.14.1)
