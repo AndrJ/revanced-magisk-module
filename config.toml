@@ -31,8 +31,8 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-arch = "both"
-version = "20.44.38"
+#arch = "both" #260331時点では、これを指定する場合は下記の version = "20.44.38" じゃないとうまく動かない
+#version = "20.44.38"
 
 [Music]
 build-mode = "both"
