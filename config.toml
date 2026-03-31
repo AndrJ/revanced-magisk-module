@@ -14,7 +14,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 #excluded-patches = "'Enable tablet layout' 'Tablet mini player' 'Return YouTube Dislike' 'Vanced MicroG support' 'Announcements' 'Enable debugging' 'HDR auto brightness' 'Swipe controls'"
 excluded-patches = "'Enable tablet layout' 'Tablet mini player' 'Return YouTube Dislike' 'Announcements' 'Enable debugging' 'HDR auto brightness' 'Swipe controls'"
 included-patches = ""
-version = "auto"
+#version = "auto"
+version = "20.45.36"
 #apkmirror-arch = "arm-v7a"
 #arch = "arm-v7a"
 arch = "both"
@@ -42,6 +43,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 #apkmirror-arch = "arm-v7a"
 #excluded-patches = "'Vanced MicroG support'"
 patches-source = "AndrJ/revanced-patches"
+version = "8.44.54"
 
 [Music-Morphe]
 app-name = "Music"
