@@ -1,9 +1,9 @@
-Music (arm64-v8a): 8.40.54  
-Music (arm-v7a): 8.40.54  
+Music (arm64-v8a): 8.44.54  
+Music (arm-v7a): 8.44.54  
 Music-Morphe (arm64-v8a): 8.44.54  
 Music-Morphe (arm-v7a): 8.44.54  
-YouTube (arm64-v8a): 20.40.45  
-YouTube (arm-v7a): 20.40.45  
+YouTube (arm64-v8a): 20.45.36  
+YouTube (arm-v7a): 20.45.36  
 YouTube-Morphe (arm64-v8a): 20.45.36  
 YouTube-Morphe (arm-v7a): 20.45.36  
 
