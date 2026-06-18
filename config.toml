@@ -60,6 +60,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 #version = "8.40.54"
 
 [Twitter]
+enabled = false
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
