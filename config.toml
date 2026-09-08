@@ -62,6 +62,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 [GooglePhotos-De-Vanced]
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
+rv-brand = "DeVanced"
 cli-source = "MorpheApp/morphe-cli"
 #arch = "arm-v7a"
 arch = "both"
@@ -82,14 +83,12 @@ included-patches = "'Enable DCIM folders backup control'"
 
 [Twitter]
 enabled = false
-patches-source = "crimera/piko"
+patches-source = "crimera/piko-newx"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-build-mode = "module"
-version = "11.81.0-release.0"
-include-stock = "split"
+version = "12.22.0-prod.01"
+included-patches = "'NewX: Restore Twitter branding'"
 
 ## https://github.com/j-hc/revanced-magisk-module/issues/554
 #[Music-Extended]
