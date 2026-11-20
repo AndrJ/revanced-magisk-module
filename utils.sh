@@ -764,18 +764,22 @@ build_rv() {
 		fi
 
 		if [ "$build_mode" = "apk" ]; then
-			if [ -n "$microg_patch" ]; then
-				patcher_args+=("-e \"${microg_patch}\"")
-			fi
+#			if [ -n "$microg_patch" ]; then
+#				patcher_args+=("-e \"${microg_patch}\"")
+#			fi
 		elif [ "$build_mode" = "module" ]; then
-			if [ -n "$microg_patch" ]; then
-				patcher_args+=("-d \"${microg_patch}\"")
-			fi
+#			if [ -n "$microg_patch" ]; then
+#				patcher_args+=("-d \"${microg_patch}\"")
+#			fi
 			if [ -n "$branding_patch" ]; then
 				patcher_args+=("-d \"${branding_patch}\"")
 			fi
 		else
 			abort unreachable
+		fi
+		# !kyousei suru!
+		if [ -n "$microg_patch" ]; then
+			patcher_args+=("-d \"${microg_patch}\"")
 		fi
 
 		if [ "${args[enable_update_checks]}" = "true" ] && [ "$build_mode" = "apk" ] && [ -n "${GITHUB_REPOSITORY-}" ]; then
