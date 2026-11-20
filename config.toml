@@ -21,6 +21,8 @@ version = "20.44.38"
 #arch = "arm-v7a"
 arch = "both"
 patches-source = "AndrJ/revanced-patches"
+cli-source = "ReVanced/revanced-cli"
+rv-brand = "ReVanced"
 
 [YouTube-Morphe]
 app-name = "YouTube"
@@ -46,6 +48,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 #excluded-patches = "'Vanced MicroG support'"
 patches-source = "AndrJ/revanced-patches"
 #version = "8.44.54"
+cli-source = "ReVanced/revanced-cli"
+rv-brand = "ReVanced"
 
 [Music-Morphe]
 app-name = "Music"
@@ -63,7 +67,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
-cli-source = "MorpheApp/morphe-cli"
+#cli-source = "MorpheApp/morphe-cli"
 #arch = "arm-v7a"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
@@ -80,6 +84,9 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 included-patches = "'Enable DCIM folders backup control'"
 #excluded-patches = "'GmsCore support'"
+patches-source = "AndrJ/revanced-patches"
+cli-source = "ReVanced/revanced-cli"
+rv-brand = "ReVanced"
 
 [Twitter]
 enabled = false
