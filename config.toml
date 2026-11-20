@@ -24,9 +24,9 @@ patches-source = "AndrJ/revanced-patches"
 
 [YouTube-Morphe]
 app-name = "YouTube"
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Morphe"
+#patches-source = "MorpheApp/morphe-patches" #2026 Sep 8 まではこの指定だったが、それ以降のどこかで不要になった。これか？ Commits on Oct 31, 2026 https://github.com/AndrJ/revanced-magisk-module/commit/e138b0bb4b8b175738d591d4817a2898d405bcff
+#cli-source = "MorpheApp/morphe-cli"
+#rv-brand = "Morphe"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -49,9 +49,9 @@ patches-source = "AndrJ/revanced-patches"
 
 [Music-Morphe]
 app-name = "Music"
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Morphe"
+#patches-source = "MorpheApp/morphe-patches"
+#cli-source = "MorpheApp/morphe-cli"
+#rv-brand = "Morphe"
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
@@ -84,10 +84,11 @@ included-patches = "'Enable DCIM folders backup control'"
 [Twitter]
 enabled = false
 patches-source = "crimera/piko-newx"
-cli-source = "MorpheApp/morphe-cli"
+#cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-version = "12.22.0-prod.01"
+#version = "12.22.0-prod.01"
+version = "latest"
 included-patches = "'NewX: Restore Twitter branding'"
 
 ## https://github.com/j-hc/revanced-magisk-module/issues/554
