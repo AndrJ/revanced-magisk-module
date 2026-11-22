@@ -764,6 +764,7 @@ build_rv() {
 		fi
 
 		if [ "$build_mode" = "apk" ]; then
+			: # No-op to prevent syntax error from an empty 'if' block
 #			if [ -n "$microg_patch" ]; then
 #				patcher_args+=("-e \"${microg_patch}\"")
 #			fi
